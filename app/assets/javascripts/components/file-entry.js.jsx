@@ -1,9 +1,10 @@
 class FileEntry extends React.Component {
   render() {
     return (
-      <li className="">
+      <li className="list-group-item">
         <span className="glyphicon glyphicon-file"></span>
-        {this.props.title}
+        <span className="margin-left-sm">{this.props.title}</span>
+        <span className="pull-right text-muted">{this.props.size} B</span>
       </li>
     )
   }

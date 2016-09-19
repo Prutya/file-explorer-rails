@@ -1,9 +1,9 @@
 class DirEntry extends React.Component {
   render() {
     return (
-      <li>
+      <li className="list-group-item">
         <span className="glyphicon glyphicon-folder-close"></span>
-        {this.props.title}
+        <span className="margin-left-sm">{this.props.title}</span>
       </li>
     )
   }

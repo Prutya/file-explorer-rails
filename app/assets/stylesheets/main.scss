@@ -1,3 +1,9 @@
 // Libraries
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// Mixins & variables
+@import "base/variables";
+
+// Globals
+@import "globals/margins";
